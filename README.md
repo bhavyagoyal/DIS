@@ -58,3 +58,116 @@ Papers are mostly related to Image Retrieval, Deep Metric Learning, Image Recogn
 </details>
 <br>
 
+* [3/28] **Unsupervised Representation Learning by Predicting Image Rotations**
+[arxiv](https://arxiv.org/abs/1803.07728)
+<details><summary></summary>
+(+) Simple self-supervised learning with 4 ouptuts (0, 90, 180, 270 degree rotation)<br>
+(-) Used old structure (Alexnet)<br>
+(+) Interesting claims ( 90 degrees do not generate artifacts, well-poseness is necessary)<br>
+</details>
+<br>
+
+* [3/28] **A Bayesian Perspective on Generalization and Stochastic Gradient Descent**
+[arxiv](https://arxiv.org/abs/1710.06451)
+<details><summary></summary>
+() They proposed to use marginal likelihood (evidence) as a measure of generalization ability<br>
+() They interpriate SGD as a stochastic differential equations and derived the linear relationship between learning rate and batch size in a noise scale<br>
+</details>
+<br>
+
+* [3/29] **Group Normalization**
+[arxiv](https://arxiv.org/abs/1803.08494)
+<details><summary></summary>
+(+) Comprehensive illustrations of various normalizations<br>
+(+) GN(Group normalization) is a little worse than BN(Batch Normalization) but better than others.<br>
+(+) GN is feasible with small batch settings such as detection models.<br>
+(-) No need to read if you are using enough batch size or familiar with BN.<br>
+</details>
+<br>
+
+* [4/2] **Attention-based Deep Multiple Instance Learning**
+[arxiv](https://arxiv.org/abs/1802.04712)
+<details><summary></summary>
+() proposed to use attention for MIL pooling<br>
+(+) main body of the paper is well-written<br>
+(-) performance is not very good and limited to small training data case<br>
+</details>
+<br>
+
+* [4/4] **Bayesian Gradient Descent: Online Variational Bayes Learning with Increased Robustness to Catastrophic Forgetting and Weight Pruning**
+[arxiv](https://arxiv.org/abs/1803.10123)
+<details><summary></summary>
+(+) Concise introduction to Bayesian optimization<br>
+(+) More generic solution to the catastrophic forgetting<br>
+(-) A worse than the previous approach<br>
+</details>
+<br>
+
+* [4/5] **Large-Scale Image Retrieval with Attentive Deep Local Features**
+[arxiv](https://arxiv.org/abs/1612.06321)
+<details><summary></summary>
+() Attended local features, pyramid image, RANSAC verification for retieving landmark images<br>
+</details>
+<br>
+
+* [4/6] **Optimizing the letent space of generative networks**
+[arxiv](https://arxiv.org/abs/1707.05776)
+<details><summary></summary>
+(+) Use learnable variables for the latent space, without any encoder, only train the decoder<br>
+(+) Non-parametric latent space, with simple optimization technique<br>
+(+) Room to improve the performance<br>
+(-) Inconclusive results, rejected from ICLR2018<br>
+</details>
+<br>
+
+* [4/9] **CleanNet: Transfer Learning for Scalable Image Classifier Training with Label Noise**
+[arxiv](https://arxiv.org/abs/1711.07131)
+<details><summary></summary>
+(+) Nice and practical problem setting<br>
+(-) less convincing solution (heuristic method)<br>
+(-) lack of details of dataset, ablation study<br>
+</details>
+<br>
+
+* [4/11] **Qualitatively Characterizing Neural Network Optimization Networks**
+[arxiv](https://arxiv.org/abs/1412.6544)
+<details><summary></summary>
+() The path a network takes from initialzation to solution is smooth<br>
+() No local minimas encountered during the path in popular models<br>
+</details>
+<br>
+
+* [4/16] **Revisiting Oxford and Paris: Large-Scale Image Retrieval Benchmarking**
+[arxiv](https://arxiv.org/abs/1803.11285)
+<details><summary></summary>
+(+) Revise oxford5k, paris6k dataset + 1M filtered distractor without false negative<br>
+(+) Well orgarized experiments for comparing state of the arts<br>
+</details>
+<br>
+
+* [4/18] **Cognitive Psychology for Deep Neural Networks: A Shape Bias Case Study**
+[arxiv](https://arxiv.org/abs/1706.08606)
+<details><summary></summary>
+() Applied methodology of cognitive psychology for interpreting neural network's behavior<br>
+() Inception model trained with ImageNet has a shape bias<br>
+() different randomly initialized models shows various strength of shape bias in spite of similar classfication accruacy<br>
+</details>
+<br>
+
+* [4/30] **Borrowing Treasures from the Wealthy: Deep Transfer Learning through Selective Joint Fine-tuning**
+[arxiv](https://arxiv.org/abs/1702.08690)
+<details><summary></summary>
+(+) Subsampling training data (of source domain) is better than using entire one<br>
+</details>
+<br>
+
+* [5/2] **PixelCNN++: A PixelCNN Implementation with Discretized Logistic Mixture Likelihood and Other Modifications,**
+[arxiv](https://arxiv.org/abs/1701.05517)
+<details><summary></summary>
+(+) Good modelling of discrete pixel values with logistic distribution<br>
+(+) Performance improvement of PixelCNN<br>
+(+) Full code is uploaded<br>
+(-) Incremental modification and inherites some weakness of PixelCNN, e.g.) sampling time<br>
+</details>
+<br>
+
