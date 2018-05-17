@@ -171,3 +171,22 @@ Papers are mostly related to Image Retrieval, Deep Metric Learning, Image Recogn
 </details>
 <br>
 
+* [5/16] **Realistic Evaluation of Deep Semi-Supervised Learning Algorithms**
+[arxiv](https://arxiv.org/abs/1804.09170)
+<details><summary></summary>
+(+) integrated implementation for test bed with previous methods<br>
+(+) optimized baseline (fully supervised learning / transfer learning)<br>
+(+) realistic scenario of semi-supervised learning (distribution mismatch between labeled and unlabeled data / limited amount of validation data)<br>
+</details>
+<br>
+
+* [5/17] **Label Refinery: Improving ImageNet Classification through Label Progression**
+[arxiv](https://arxiv.org/abs/1805.02641)
+<details><summary></summary>
+() Using dynamically generated label from label refinery model to train better model<br>
+(-) very similar to teacher-student training<br>
+(+) propose to use extreme data augmentation, adversariel examples in training<br>
+(+) through experiments<br>
+</details>
+<br>
+
