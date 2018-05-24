@@ -190,3 +190,10 @@ Papers are mostly related to Image Retrieval, Deep Metric Learning, Image Recogn
 </details>
 <br>
 
+* [5/24] **Born Again Neural Networks**
+[arxiv](https://arxiv.org/abs/1805.04770)
+<details><summary></summary>
+(+) First paper for teacher student training with identical architectures<br>
+</details>
+<br>
+
