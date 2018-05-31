@@ -197,3 +197,21 @@ Papers are mostly related to Image Retrieval, Deep Metric Learning, Image Recogn
 </details>
 <br>
 
+* [5/30] **Do Better Imagenet Models Transfer Better?**
+[arxiv](https://arxiv.org/abs/1805.08974)
+<details><summary></summary>
+(+) Thourough survey of different architectures and different datasets for transfer learning<br>
+(+) Better statistical method for comparison: Instead of directly comparing accuracy on Imagenet and transfer datasets, it compares the additive change in logit-transformed accuracy<br>
+() Shows better model on Imagenet perform better on transfer datasets too on finetuning almost always<br>
+</details>
+<br>
+
+* [5/31] **Spatial Transformer Introspective Neural Network**
+[arxiv](https://arxiv.org/abs/1805.06447)
+<details><summary></summary>
+(+) Improvement over baseline discriminative models, especially in Few-shot learning problem<br>
+(+) The original introspective model is intriguing, "Learning Genetative Models via Discriminative Approaches"<br>
+(-) Marginal improvement over introspective models<br>
+</details>
+<br>
+
