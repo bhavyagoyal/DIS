@@ -215,3 +215,19 @@ Papers are mostly related to Image Retrieval, Deep Metric Learning, Image Recogn
 </details>
 <br>
 
+* [6/1] **How Does Batch Normalization Help Optimization? (No, It Is Not About Internal Covariate Shift)**
+[arxiv](https://arxiv.org/abs/1805.11604)
+<details><summary></summary>
+() Batch-norm is not reducing covariance shift<br>
+() It smooth the loss landscape<br>
+</details>
+<br>
+
+* [6/4] **The Conditional Analogy GAN: Swapping Fashion Articles on People Images**
+[arxiv](https://arxiv.org/abs/1709.04695)
+<details><summary></summary>
+(+) interesting problem: Given the image of fashion article alone, generating an image with human model<br>
+(-) not good results nor experimental section<br>
+</details>
+<br>
+
