@@ -231,3 +231,35 @@ Papers are mostly related to Image Retrieval, Deep Metric Learning, Image Recogn
 </details>
 <br>
 
+* [6/4] **AutoAugment: Learning Augmentation Policies from Data**
+[arxiv](https://arxiv.org/abs/1805.09501)
+<details><summary></summary>
+(+) Good way to use large number of augmentation techniques simultaneously, show significant improvement<br>
+(-) Search algorithm procedure not provided in detail<br>
+</details>
+<br>
+
+* [6/8] **Knowledge Distillation with Adversarial Samples Supporting Decision Boundary**
+[arxiv](https://arxiv.org/abs/1805.05532)
+<details><summary></summary>
+(+) combining two ideas: adverarial attack and knowledge distillation<br>
+(+) using samples on the decision boundary for knowledge distillation<br>
+</details>
+<br>
+
+* [6/14] **why do deep convolutional networks generalize so poorly to small image transformations?**
+[arxiv](https://arxiv.org/abs/1805.12177)
+<details><summary></summary>
+() CNNs are very sensitive to translation and scale change<br>
+() Architecture does not explicitly designed for it due to subsampling<br>
+() Data has photographer's bias<br>
+</details>
+<br>
+
+* [6/20] **Deep Adversarial Metric Learning**
+[Link](http://openaccess.thecvf.com/content_cvpr_2018/papers/Duan_Deep_Adversarial_Metric_CVPR_2018_paper.pdf)
+<details><summary></summary>
+() Generating adversarial sample for negative examples<br>
+</details>
+<br>
+
