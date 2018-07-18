@@ -263,3 +263,59 @@ Papers are mostly related to Image Retrieval, Deep Metric Learning, Image Recogn
 </details>
 <br>
 
+* [6/20] **Large-Scale Distance Metric Learning With Uncertainty**
+[arxiv](https://arxiv.org/abs/1805.10384)
+<details><summary></summary>
+() Generating and using latent examples without uncertainty for training<br>
+</details>
+<br>
+
+* [6/25] **Deep Learning is Robust to Massive Label Noise**
+[arxiv](https://arxiv.org/abs/1705.10694)
+<details><summary></summary>
+(+) Extensive experimental results<br>
+(-) Limited setting<br>
+() with noise, larger batchsize helps<br>
+</details>
+<br>
+
+* [6/27] **Training Convolutional Networks with Noisy Labels**
+[arxiv](https://arxiv.org/abs/1406.2080)
+<details><summary></summary>
+() ICLR 2015 workshop<br>
+() Using linear layer to model noise distribution<br>
+(-) class-level noise modeling<br>
+</details>
+<br>
+
+* [7/4] **Training Deep Neural Networks on Noisy Labels with Bootstrapping**
+[arxiv](https://arxiv.org/abs/1412.6596)
+<details><summary></summary>
+(+) Realistic testbed for noisy dataset by using subjective and ambiguous labelling of human emotion classification without injecting additional noise.<br>
+</details>
+<br>
+
+* [7/5] **Knowledge Concentration: Learning 100K Object Classifiers in a Single CNN**
+[arxiv](https://arxiv.org/abs/1711.07607)
+<details><summary></summary>
+(+)<br>
+</details>
+<br>
+
+* [7/16] **Beyond One-hot encoding lower dimensional terget embedding**
+[arxiv](https://arxiv.org/abs/1806.10805)
+<details><summary></summary>
+(+) Good survey of the encoding approaches<br>
+(+) An alternative to the clustering approaches<br>
+(-) Disappointing experimental results<br>
+</details>
+<br>
+
+* [7/18] **Creating Capsule Wardrobes from Fashion Images**
+[arxiv](https://arxiv.org/abs/1712.02662)
+<details><summary></summary>
+() After attribution prediction (multi-task classification), it apply topic model (Correlated Topic Models (CTM)) for modelting generative models. They are used to modeling compatibility and versatibility.<br>
+(+) Unsupervised method to learn compatibility and style (style for versatibility)<br>
+</details>
+<br>
+
