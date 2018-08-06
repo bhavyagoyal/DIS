@@ -319,3 +319,54 @@ Papers are mostly related to Image Retrieval, Deep Metric Learning, Image Recogn
 </details>
 <br>
 
+* [7/20] **Semantically decomposing the latent space of generative adversarial network
+Generating a Fusion Image: One's Identity and Another's Shape**
+[arxiv](https://arxiv.org/abs/1705.07904)
+<details><summary></summary>
+(+) Comparator-based discriminator<br>
+<br>
+</details>
+<br>
+
+* [7/23] **Learning the Latent "Look": Unsupervised Discovery of a Style-Coherent Embedding from Fashion Images**
+[arxiv](https://arxiv.org/abs/1707.03376)
+<details><summary></summary>
+(+) Unsupervised learning for style discovery<br>
+() Using polylingual topic model assuming multiple clothes in an outfit as translations of same document in different languages<br>
+</details>
+<br>
+
+* [7/25] **Deep Clustering for Unsupervised Learning of Visual Features**
+[arxiv](https://arxiv.org/abs/1807.05520)
+<details><summary></summary>
+(+) Unsupervised learning can learn competitive deep visual representations on ImageNet<br>
+(-) Still, worse than supervised learning<br>
+</details>
+<br>
+
+* [7/26] **Learning Type-Aware Embeddings for Fashion Compatibility**
+[arxiv](https://arxiv.org/abs/1803.09196)
+<details><summary></summary>
+(+) Interesting way to handle improper triangle issue (improper transitivity)<br>
+(-) Results are not thorough, doesnt cover current state-of-the-art results<br>
+</details>
+<br>
+
+* [8/3] **The Devil of Face Recognition is in the Noise**
+[arxiv](https://arxiv.org/abs/1807.11649)
+<details><summary></summary>
+() It shows clearer dataset gives better results<br>
+() Different noise level prefers different loss functions<br>
+() It presents noise-free public dataset<br>
+</details>
+<br>
+
+* [8/6] **Spectral Normalization for Generative Adversarial Networks**
+[arxiv](https://arxiv.org/abs/1802.05957)
+<details><summary></summary>
+(+) neat theoretical analysis and practical improvement<br>
+(+) Good comparison with other regularizers<br>
+(-) Leaving some questions about the choices of the paper regarding the alternative designs based on the claims<br>
+</details>
+<br>
+
