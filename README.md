@@ -370,3 +370,30 @@ Generating a Fusion Image: One's Identity and Another's Shape**
 </details>
 <br>
 
+* [8/6] **The GAN Landscape: Losses, Architectures, Regularization, and Normalization**
+[arxiv](https://arxiv.org/abs/1807.04720)
+<details><summary></summary>
+(+) Comprehensive empirical comparison of the latest GAN models<br>
+(+) Disciplined way of experiments<br>
+(-) No theoretical analysis<br>
+</details>
+<br>
+
+* [8/6] **Multi-Attention Multi-Class Constraint for Fine-grained Image Recognition**
+[arxiv](https://arxiv.org/abs/1806.05372)
+<details><summary></summary>
+Very similar to work on ABE<br>
+(+) Efficient way to implement attention module using squeeze excitation<br>
+(+) Divergence in attention using triplet loss, thorough analysis for all types of triplets possible with attention<br>
+(-) No significant improvement in results<br>
+</details>
+<br>
+
+* [8/8] **Unified Deep Supervised Domain Adaptation and Generalization**
+[arxiv](https://arxiv.org/abs/1709.10190)
+<details><summary></summary>
+() Classification loss + semantic alignment loss + seperation loss<br>
+() later two results in contrastive loss in penultimate layer<br>
+</details>
+<br>
+
