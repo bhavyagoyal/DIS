@@ -397,3 +397,11 @@ Very similar to work on ABE<br>
 </details>
 <br>
 
+* [8/13] **Scatter Component Analysis: A Unified Framework for Domain Adatation and Domain Generalization**
+[arxiv](https://arxiv.org/abs/1510.04373)
+<details><summary></summary>
+() Finding feature transform h which minimizes different of P(h(x)) in multiple domains<br>
+(+) generalizes previous algorithms<br>
+</details>
+<br>
+
