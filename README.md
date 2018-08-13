@@ -405,3 +405,11 @@ Very similar to work on ABE<br>
 </details>
 <br>
 
+* [8/13] **Domain Generalization via Conditional Invariant Representations**
+[Link](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16595)
+<details><summary></summary>
+() Finding feature transform h which minimizes different of P(h(x)|y) in multiple domains<br>
+(-) incremental work of above work (from different research group)<br>
+</details>
+<br>
+
