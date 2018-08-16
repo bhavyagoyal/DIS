@@ -413,3 +413,12 @@ Very similar to work on ABE<br>
 </details>
 <br>
 
+* [8/16] **Joint Distribution Optimal Transportation for Domain Adaptation**
+[arxiv](https://arxiv.org/abs/1705.08848)
+<details><summary></summary>
+() 2nd paper in the series of OT-->JDOT-->DEEPJDOT for DA<br>
+() formulizing optimal transfortation which minimizes wasserstein distance between two joint distributions P(x, y)<br>
+() target domain data is unlabeled y is replaced with f(x)<br>
+</details>
+<br>
+
