@@ -422,3 +422,21 @@ Very similar to work on ABE<br>
 </details>
 <br>
 
+* [8/20] **Fast, Better Training Trick - Random Gradient**
+[arxiv](https://arxiv.org/abs/1808.04293)
+<details><summary></summary>
+(+) Simple idea: multiply the loss by a random variable~U(0,1) <br>
+(-) Marginal improvement<br>
+</details>
+<br>
+
+* [8/20] **Droupout is a special case of the stochastic delta rule: faster and more accurate deep learning**
+[arxiv](https://arxiv.org/abs/1808.03578)
+<details><summary></summary>
+(+) Simple idea: adding a gaussian noise to the gradient (with variances proportional to the gradient)<br>
+(+) Substantial improvement on CIFAR-10/100<br>
+(-) Poor expressions <br>
+(-) Code is provided but looks different from the paper's description<br>
+</details>
+<br>
+
