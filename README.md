@@ -440,3 +440,18 @@ Very similar to work on ABE<br>
 </details>
 <br>
 
+* [8/22] **Deep Randomized Ensembles for Metric Learning**
+[arxiv](https://arxiv.org/abs/1808.04469)
+<details><summary></summary>
+() radomly merging multiple classes into one<br>
+(+) R@1=80.5 and 89.8 for CUB200 and CARS196 with an ensemble of 48 models<br>
+</details>
+<br>
+
+* [8/23] **Reversed Active Learning based Atrous DenseNet for Pathological Image Classification**
+[arxiv](https://arxiv.org/abs/1807.02420)
+<details><summary></summary>
+() Automatic removal of noisy data in the training set<br>
+</details>
+<br>
+
