@@ -455,3 +455,56 @@ Very similar to work on ABE<br>
 </details>
 <br>
 
+* [8/24] **Training confidence-calibrated classfiers for detecting out-of-distribution samples**
+[arxiv](https://arxiv.org/abs/1711.09325)
+<details><summary></summary>
+(+) Well-written, comprehensive explanation and experiments<br>
+(+) Solved the problem with simple but effective approches<br>
+(-) Missed the combined performance of confidence+joint-confidence loss<br>
+</details>
+<br>
+
+* [8/29] **DeepJDOT: Deep Joint Distribution Optimal Transport for Unsupervised Domain Adaptation**
+[arxiv](https://arxiv.org/abs/1803.10081)
+<details><summary></summary>
+() While similar to JDOT, it learns feature extractors g during optimization<br>
+() Deals with large dataset by adapting mini-batch based optimization<br>
+</details>
+<br>
+
+* [8/30] **Part-Aligned Bilinear Representations for Person Re-identification**
+[arxiv](https://arxiv.org/abs/1804.07094)
+<details><summary></summary>
+() two stream architecture: appearance network and part network<br>
+() part network is initialized with OpenPose network<br>
+() two features are combined with bilinear pooling<br>
+</details>
+<br>
+
+* [8/31] **Learning to Support: Exploiting Structure Information in Support Sets for One-Shot Learning**
+[arxiv](https://arxiv.org/abs/1808.07270)
+<details><summary></summary>
+(+) Simple idea: generate multiple representative features by combining multiple feature<br>
+(+) Another evidence of the effect of Cycling Learning Rate<br>
+(-) Exaggerating rhetoric<br>
+</details>
+<br>
+
+* [9/3] **Deeply-Learned Part-Aligned Representations for Person Re-Identification**
+[arxiv](https://arxiv.org/abs/1707.07256)
+<details><summary></summary>
+() K branches with attention module<br>
+() similar architecture with ABE-M without div loss <br>
+() global pooling following right after attention<br>
+</details>
+<br>
+
+* [9/7] **Mining on Manifolds: Metric Learning without Labels**
+[arxiv](https://arxiv.org/abs/1803.11095)
+<details><summary></summary>
+() Unsupervised metric learning (w/ pretrained network)<br>
+() Using Euclidean and manifold distance to mine positive and negative samples<br>
+() Manifold distance is calculated via Random Walk<br>
+</details>
+<br>
+
