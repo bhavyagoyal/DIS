@@ -508,3 +508,12 @@ Very similar to work on ABE<br>
 </details>
 <br>
 
+* [9/10] **Learning to Generate and Reconstruct 3D Meshes with only 2D Supervision**
+[arxiv](https://arxiv.org/abs/1807.09259)
+<details><summary></summary>
+() encoder-decoder framework <br>
+(+) train of 3d reconstruction only with images without annotations<br>
+(-) limited synthesized test setting<br>
+</details>
+<br>
+
