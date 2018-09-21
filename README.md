@@ -517,3 +517,40 @@ Very similar to work on ABE<br>
 </details>
 <br>
 
+* [9/13] **CBAM: Convolutional Block Attention Module**
+[arxiv](https://arxiv.org/abs/1807.06521)
+<details><summary></summary>
+() attention as a building block of general purpose architecture<br>
+(-) simple, shallow main body<br>
+(+) extensive experiments for design choise and benchmark performances<br>
+</details>
+<br>
+
+* [9/17] **Probabilistic Binary Neural Networks**
+[arxiv](https://arxiv.org/abs/1809.03368)
+<details><summary></summary>
+(+) Simple approach of learning stochastic weights and binarized activation<br>
+(+) Enables batch normalization and ensemble of sampled weights<br>
+(-) Performance of MAP weights is simliar to the pervious binarized network<br>
+<br>
+</details>
+<br>
+
+* [9/19] **Orientation Invariant Feature Embedding and Spatial Temporal Regularization for Vehicle Re-identification**
+[Link](http://openaccess.thecvf.com/content_ICCV_2017/papers/Wang_Orientation_Invariant_Feature_ICCV_2017_paper.pdf)
+<details><summary></summary>
+(-) additional annotation for keypoint detecting<br>
+(+) prediction for visible sides<br>
+(+) orientation aware feature embedding<br>
+</details>
+<br>
+
+* [9/21] **Pairwise Confusion for Fine-Grained Visual Classification**
+[arxiv](https://arxiv.org/abs/1705.08016)
+<details><summary></summary>
+(+) Regularization technique for Fine Grained Visual Classification<br>
+(+) Good Quantative Analysis with baseline using saliency maps from Grad-CAM<br>
+(+) Good mathematical justfication of proposed confusion metric by deriving upper and lower bounds<br>
+</details>
+<br>
+
