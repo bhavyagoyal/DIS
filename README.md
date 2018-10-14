@@ -554,3 +554,91 @@ Very similar to work on ABE<br>
 </details>
 <br>
 
+* [9/27] **Detecting and Recognizing Human-Object Interactions**
+[arxiv](https://arxiv.org/abs/1704.07333)
+<details><summary></summary>
+() a reletively new task of detecting human-object interactions<br>
+() extracting <human, verb, object> triplets<br>
+() modify Faster-RCNN with additional head for action classifier and object location regresser for each action<br>
+</details>
+<br>
+
+* [10/1] **Exponential Discriminative Metric Embedding in Deep Learning**
+[Link](https://www.sciencedirect.com/science/article/pii/S0925231218301759)
+<details><summary></summary>
+() another loss which can be added to softmax loss (IE loss)<br>
+() quite similar to center loss<br>
+</details>
+<br>
+
+* [10/4] **Deep Metric Learning and Image Classification with Nearest Neighbour Gaussian Kernels**
+[arxiv](https://arxiv.org/abs/1705.09780)
+<details><summary></summary>
+(+) Combines metric learning loss and classification loss into a single loss using gaussian kernel and approximate nearest neighbour search, Significant improvement in image retrieval tasks<br>
+(-) Thorough analysis is not given, 4 page restricition<br>
+</details>
+<br>
+
+* [10/5] **Large Scale GAN Training For High Fidelity Natual Image Synthesis**
+[arxiv](https://arxiv.org/abs/1809.11096)
+<details><summary></summary>
+(+) Concise summary of the latest Image GAN models<br>
+(+) Large batch & wide generator with relaxed orthognal regularizer for discriminator<br>
+(+) Experimental results of combined approaches of SOTAs which we can not get easily<br>
+(-) No theoretical or fundamental progress<br>
+</details>
+<br>
+
+* [10/8] **Rethinking the Value of Network Pruning**
+[arxiv](https://arxiv.org/abs/1810.05270)
+<details><summary></summary>
+() Pruned architecture can be trained from the scratch (accuracies are similar to fine-tuning)<br>
+</details>
+<br>
+
+* [10/11] **Taiming VAEs**
+[arxiv](https://arxiv.org/abs/1810.00597)
+<details><summary></summary>
+(+) Inversion of the goal of the VAE(variational auto encoder) with theoretical analysis<br>
+(+) Achieving much lower KL divergence of the posterior in the latent dimension<br>
+(+) Mitigating the "hole" problem of VAE and gettting a generative model <br>
+(-) No practical implication for now<br>
+<br>
+</details>
+<br>
+
+* [10/12] **Confidence Calibration in Deep Neural Networks through Stochastic Inferences**
+[arxiv](https://arxiv.org/abs/1809.10877)
+<details><summary></summary>
+() Using stochastic inference to weight two cross entropy in loss; ce with gt and ce with uniform distribution<br>
+(+) calibrated confidence with a single forward pass<br>
+</details>
+<br>
+
+* [10/15] **FD-GAN: Pose-guided Feature Distilling GAN for Robust Person Re-identification**
+[arxiv](https://arxiv.org/abs/1810.02936)
+<details><summary></summary>
+(+) Using the generative model for a regularizer, this improves the SOTA re-identification accuracy by 5~9%<br>
+(+) One of a few successful cases that a generative model actually helps <br>
+(-) No through analysis of what's going on under the hood<br>
+(-) genarative model + 3 discriminators in addtion to the primary loss, which would reduce the batch size.<br>
+</details>
+<br>
+
+* [10/18] **Deep Networks with Stochastic Depth**
+[arxiv](https://arxiv.org/abs/1603.09382)
+<details><summary></summary>
+(+) better than resnet baseline in CIFAR10, CIFAR100, and SVHN (not in ImageNet)<br>
+(+) first to train deeper (>1000 layers) network to be better than less deep model (1202 layers > 101 layers)<br>
+</details>
+<br>
+
+* [10/22] **Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles**
+[arxiv](https://arxiv.org/abs/1612.01474)
+<details><summary></summary>
+(+) Non-bayesian approach for uncertainty estimation<br>
+() 3 components: proper scoring rule as loss, adversarial training, ensemble<br>
+(+) better than MC-dropout<br>
+</details>
+<br>
+
