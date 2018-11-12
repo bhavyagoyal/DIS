@@ -730,3 +730,72 @@ Very similar to work on ABE<br>
 </details>
 <br>
 
+* [10/24] **Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning**
+[arxiv](https://arxiv.org/abs/1506.02142)
+<details><summary></summary>
+() Show training NN with dropout is equivalent to gaussian process with variational inference<br>
+</details>
+<br>
+
+* [10/25] **A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks**
+[arxiv](https://arxiv.org/abs/1610.02136)
+<details><summary></summary>
+() classification with reject (mis-classified, out-of-distribution)<br>
+() uses simple thresholding with softmax output<br>
+(+) Extensive experiment across multiple field including computer vision<br>
+</details>
+<br>
+
+* [10/26] **To Trust Or Not To Trust A Classifier**
+[arxiv](https://arxiv.org/abs/1805.11783)
+<details><summary></summary>
+() Simple method for "trust score" using nearest neighbor style method<br>
+(+) better than softmax baseline<br>
+(+) support their algorithm by showing the similarity to bayes optimal classifier is increasing with high "trust score"<br>
+</details>
+<br>
+
+* [10/31] **Knows When it Doesn’t Know: Deep Abstaining Classifiers**
+[Link](https://openreview.net/forum?id=rJxF73R9tX)
+<details><summary></summary>
+() adding one more class to classifier for abstaining<br>
+(+) interesting experiments<br>
+(-) somewhat un-realistic scenario<br>
+(+) shows possiblity and limitations of this approach well<br>
+</details>
+<br>
+
+* [11/5] **Gaussian Process Prior Variational Autoencoder**
+[arxiv](http://www.mit.edu/~adalca/files/papers/gppvae-arxiv-draft.pdf)
+<details><summary></summary>
+(+) A new way of using Gaussian Process (GP) to separate the latent space<br>
+(+) 2 approaches to make the GP pragmatic (LR approximation, Memory reduction)<br>
+(-) Still, small dataset. ( less than 10K images), No experiments with learned information<br>
+</details>
+<br>
+
+* [11/7] **Biologically-Plausible Learning Algorithms Can Scale to Large Datasets**
+[Link](https://openreview.net/forum?id=SygvZ209F7)
+<details><summary></summary>
+() SGD cannot be implemented on the human brain because of weight symmetriy<br>
+() with many assumption, sign-symmetry can achieve near SGD performance on ImageNet<br>
+</details>
+<br>
+
+* [11/9] **Generating Photo-Realistic Training Data to Improve Face Recognition Accuracy**
+[arxiv](https://arxiv.org/abs/1811.00112)
+<details><summary></summary>
+(+) Performance Improvement (67.58%->69.02%, TAR @FAR=0.01) with generated images<br>
+(+) Convert Categorical distribution into Gaussian for generator, Add Identity loss & regularizer to discriminator<br>
+(-) Used 287 images per class, Loss of identity qualitatively speaking<br>
+</details>
+<br>
+
+* [11/9] **DropBlock: A regularization method for convolutional networks**
+[arxiv](https://arxiv.org/abs/1810.12890)
+<details><summary></summary>
+(+) Signficant improvement in classification, detection and segmention compared to Dropout and its variants<br>
+(+) Good experimental setup, thorough analysis to confirm Dropblock drops more semantic information<br>
+</details>
+<br>
+
