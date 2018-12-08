@@ -799,3 +799,86 @@ Very similar to work on ABE<br>
 </details>
 <br>
 
+* [11/14] **Slimmable Neural Networks **
+[Link](https://openreview.net/forum?id=H1gMCsAqY7)
+<details><summary></summary>
+() train once, deploy to multiple platform with flexible complexity<br>
+() train with multiple losses calculated with slimmer networks<br>
+(+) proposed to use switchable batch norm (networks cannot be trained w/o this)<br>
+</details>
+<br>
+
+* [11/15] **End-to-end weakly-supervised semantic alignment**
+[arxiv](https://arxiv.org/abs/1712.06861)
+<details><summary></summary>
+() second paper in correlation layer series<br>
+() weekly supervised training with image-level annotation <br>
+() spatial transformer network for warping mask for inliers<br>
+</details>
+<br>
+
+* [11/16] **ImageNet/ResNet-50 Training in 224 Seconds**
+[arxiv](https://arxiv.org/abs/1811.05233)
+<details><summary></summary>
+() Training imagenet in 224 seconds with 2176 GPUs (Tesla V100)<br>
+() LARS in "Large Batch Training of Convolutional Networks"<br>
+() 2D-Torus all-reduce<br>
+</details>
+<br>
+
+* [11/19] **Large Batch Training of Convolutional Networks**
+[arxiv](https://arxiv.org/abs/1708.03888)
+<details><summary></summary>
+() To reduce training time, one can use more computation units (GPUs), which result in larger batchsize<br>
+() previous work: linear scale learning rate (LR), LR warm up<br>
+(+) this work proposed LARS (Layer-wise Adaptive Rate Scaling)<br>
+(-) care less about generalization gap<br>
+</details>
+<br>
+
+* [11/21] **Scalable Annotation of Fine-Grained Categories Without Experts**
+[arxiv](https://arxiv.org/abs/1709.02482)
+<details><summary></summary>
+() Describe the process to build large scale fine grained training data for cars<br>
+() raw data from online used car selling page<br>
+() filtering / merging using Terk<br>
+() 712,430 images with 2,657 categories<br>
+</details>
+<br>
+
+* [11/23] **Pairwise Relational Networks using Local Appearance Features for Face Recognition**
+[arxiv](https://arxiv.org/abs/1811.06405)
+<details><summary></summary>
+(+) Improved face recognition accruacy marginally (95.1%->96.3%) <br>
+(+) Using self-relational comparision from features of detected landmarks, it might learn the complex structure of images<br>
+(+) Use one feature per image by aggregating the output of the relational networks<br>
+(-) Improvement is not huge<br>
+</details>
+<br>
+
+* [11/23] **Visual memory: What do you know about what you saw?**
+[Link](https://www.sciencedirect.com/science/article/pii/S0960982298701927)
+<details><summary></summary>
+() Summarize some experiments in the literature regarding the question of what passes the bottleneck between vision and memory<br>
+() objects, object relations and spatial layout, impression of the low-level visual features seem to compose 'gist' <br>
+</details>
+<br>
+
+* [11/26] **Batch Feature Erasing for Person Re-identification and Beyond**
+[arxiv](https://arxiv.org/abs/1811.07130)
+<details><summary></summary>
+(+) Modified DropBlock for metric learning training, acheives state-of-art results on all retrieval benchmarks and person-reID, outperformed ABE-8 results by huge margin<br>
+(+) Good ablation study of embedding size, multiple metric learning losses for their approach<br>
+(+) Emperical study of global average pooling vs global max pooling of features (Their approach uses both)<br>
+<br>
+</details>
+<br>
+
+* [11/30] **Adaptive Re-ranking of Deep Feature for Person Re-identification**
+[arxiv](https://arxiv.org/abs/1811.08561)
+<details><summary></summary>
+(+) Introduces adaptive re-ranking (ARR) which performs well on all PersonReId task, approach is easy to implement and has potential to work well on grocery recognition task<br>
+(+) Combination of ARR and DFF performs good on all Person Re-Id tasks, low computational overhead<br>
+</details>
+<br>
+
