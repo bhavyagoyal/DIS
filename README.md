@@ -882,3 +882,77 @@ Very similar to work on ABE<br>
 </details>
 <br>
 
+* [2018-12-04] **Cascade: Crowdsourcing Taxonomy Creation**
+[Link](https://dl.acm.org/citation.cfm?id=2466265)
+<details><summary></summary>
+() crowd sourcing method for generating taxonomy given inputs of "topic" and "examples"<br>
+() individuals are not required to understand global architecture<br>
+() precesses are divided into primitives<br>
+</details>
+<br>
+
+* [2018-12-06] **Implicit Maximum Likelihood Estimation**
+[arxiv](https://arxiv.org/abs/1809.09087)
+<details><summary></summary>
+(+) Simple algorithm <br>
+(+) Intuitive ideas and questions<br>
+(-) Requires a fast K-nn search and proper metric of data<br>
+</details>
+<br>
+
+* [2018-12-10] **Iterative Projection and Matching: Finding Structure-preserving Representatives and Its application to Computer Vision**
+[arxiv](https://arxiv.org/abs/1811.12326)
+<details><summary></summary>
+(+) Converting the selection of representatives into the matrix approximation problem<br>
+(+) Simple but more effective selection compared to previous approaches<br>
+(+) Various demonestration of applications<br>
+(-) Not clear how to choose K-parameter and to deal with high dimension<br>
+</details>
+<br>
+
+* [2018-12-10] **FineGAN: Unsupervised Hierarchical Disentanglement for Fine-Grained Object Generation and Discovery**
+[arxiv](https://arxiv.org/abs/1811.11155)
+<details><summary></summary>
+(+) Multi-stage image generation with masking <br>
+(+) 1. generate a background (GAN loss) 2. generate mask & shape from the parent class (classfication loss)<br>
+     3. generate mask & detail from the child class (classfication + GAN loss)<br>
+(+) Generated results shows interesting behavior with fine details<br>
+(-) Not clear the role of the middle step<br>
+</details>
+<br>
+
+* [2018-12-13] **Deep Object Pose Estimation for Semantic Robotic Grasping of Household Objects**
+[arxiv](https://arxiv.org/abs/1809.10790)
+<details><summary></summary>
+() YCB dataset with everyday objects (such as grocery products) with rich annotation including, 3d-box, id, segmentation, with RGBD<br>
+(+) Only using synthesized image to train <br>
+() Final code and image generation code are public<br>
+</details>
+<br>
+
+* [2018-12-14] **Learning Visual Question Answering by Bootstrapping Hard Attention **
+[arxiv](https://arxiv.org/abs/1808.00300)
+<details><summary></summary>
+(+) Simple way to (hard) attend to the most important features<br>
+(+) Applied the technique on different data sets, and tested the approach in different kinds of settings, so the approach is general enough<br>
+(-) Doesnt describe how the parameters corresponding to the features which are ignored after attention are learned well<br>
+</details>
+<br>
+
+* [2018-12-17] **Visual Object Networks: Image  Generation with Disentangled 3D representation**
+[arxiv](https://arxiv.org/abs/1812.02725)
+<details><summary></summary>
+(+) A good disentangled generation prosess using 3D shape prior to train a generator with GAN<br>
+(+) Generate 2.5D image with differential ray casting and Image-to-Image generation with cyclic constraint<br>
+(-) Requires 3D shape database and no background generation<br>
+</details>
+<br>
+
+* [2018-12-19] **Bag of Tricks for Image Classification with Convolutional Neural Networks**
+[arxiv](https://arxiv.org/abs/1812.01187)
+<details><summary></summary>
+(+) Improving ImageNet given an architecture<br>
+(+) ResNet50, 75.3% to 79.29%<br>
+</details>
+<br>
+
